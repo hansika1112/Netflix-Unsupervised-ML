@@ -1,0 +1,3 @@
+algorithm,n_clusters_requested,n_evaluated,n_clusters_observed,silhouette_cosine,davies_bouldin_euclidean,calinski_harabasz_euclidean,inertia
+K-Means,9,1500,9,0.17687489087329614,2.953322578660648,52.69703708955197,5488.10600786975
+Agglomerative (ward),10,1500,10,0.13587249233335932,3.116421238183341,42.086807521528875,

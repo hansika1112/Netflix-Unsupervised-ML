@@ -1,0 +1,104 @@
+[
+  {
+    "hypothesis": "H1: Catalog content type is associated with date-added era",
+    "null": "Content type and date-added era are independent",
+    "test": "Pearson chi-square test of independence",
+    "variables": "type x date_added era (3 pre-defined broad periods)",
+    "statistic": 6.310642034179313,
+    "degrees_of_freedom": 2,
+    "p_value": 0.04262471553400932,
+    "alpha": 0.05,
+    "reject_null": true,
+    "assumption_min_expected": 17.59033046161759,
+    "n_observations": 7777,
+    "cramers_v": 0.028485951036923238,
+    "observed_table": {
+      "2008-2014": {
+        "Movie": 45,
+        "TV Show": 12
+      },
+      "2015-2017": {
+        "Movie": 1180,
+        "TV Show": 576
+      },
+      "2018-2021": {
+        "Movie": 4152,
+        "TV Show": 1812
+      }
+    },
+    "effect_direction": "TV Show share by era",
+    "direction_values": {
+      "2008-2014": 0.21052631578947367,
+      "2015-2017": 0.32801822323462415,
+      "2018-2021": 0.3038229376257545
+    },
+    "interpretation": "Association indicates the type mix differs across eras; compare observed TV shares for direction. Date-added records describe the supplied catalog, not Netflix's full historical commissioning or availability.",
+    "p_value_holm": 0.04262471553400932,
+    "reject_null_holm": true
+  },
+  {
+    "hypothesis": "H2: Content type distribution differs by primary listed country",
+    "null": "Content type and primary listed country group are independent",
+    "test": "Pearson chi-square test of independence",
+    "variables": "primary country (top 10 plus Other) x type",
+    "statistic": 676.3762637942609,
+    "degrees_of_freedom": 10,
+    "p_value": 7.384728961325679e-139,
+    "alpha": 0.05,
+    "reject_null": true,
+    "assumption_min_expected": 33.42493900089893,
+    "n_observations": 7787,
+    "cramers_v": 0.29471964938599843,
+    "observed_table": {
+      "Movie": {
+        "Australia": 56,
+        "Canada": 175,
+        "France": 137,
+        "India": 883,
+        "Japan": 75,
+        "Mexico": 79,
+        "Other": 1370,
+        "South Korea": 42,
+        "Spain": 119,
+        "United Kingdom": 341,
+        "United States": 2100
+      },
+      "TV Show": {
+        "Australia": 52,
+        "Canada": 84,
+        "France": 59,
+        "India": 73,
+        "Japan": 162,
+        "Mexico": 44,
+        "Other": 716,
+        "South Korea": 152,
+        "Spain": 49,
+        "United Kingdom": 236,
+        "United States": 783
+      }
+    },
+    "interpretation": "A significant association is descriptive, not causal. Country metadata may be incomplete; the first-listed country is a consistent proxy and does not represent all co-production countries.",
+    "p_value_holm": 2.2154186883977038e-138,
+    "reject_null_holm": true
+  },
+  {
+    "hypothesis": "H3: Release-year distributions differ between Movies and TV Shows",
+    "null": "Release-year distributions are equal across content types",
+    "test": "Two-sided Mann-Whitney U test",
+    "variables": "release_year by type; independent title rows",
+    "statistic": 4666841.5,
+    "degrees_of_freedom": null,
+    "p_value": 7.507433995099371e-88,
+    "alpha": 0.05,
+    "reject_null": true,
+    "assumption_min_expected": null,
+    "median_movie_year": 2016.0,
+    "median_tv_year": 2018.0,
+    "n_movie": 5377,
+    "n_tv_show": 2410,
+    "rank_biserial_movie_vs_tv": -0.27972893614033034,
+    "interpretation": "A significant result supports a difference in release-year distributions; it does not imply content type caused release timing or measure business performance.",
+    "p_value_holm": 1.5014867990198741e-87,
+    "reject_null_holm": true
+  }
+]

@@ -1,0 +1,15 @@
+time,section,speaking_points,visuals_to_show
+0:00–0:30,Introduction,Set up the question: how can a large catalog be explored through content similarity?,Title slide
+0:30–1:00,Business context,Explain catalog discovery and segmentation; clarify this is not a recommendation engine.,Business-context slide
+1:00–1:30,Problem and objectives,State the clustering question and why labels are unavailable.,Problem/objectives
+1:30–2:00,Dataset and scope,"Report 7,787 records, 12 observed columns, and date-added range 2008–2021; flag the 2019-brief vs 2021-file mismatch.",Schema and data dictionary
+2:00–2:40,Cleaning,"Explain preserved missing metadata, zero exact duplicates, whitespace normalization, and retained unusual titles.",Missingness/cleaning impact table
+2:40–3:45,EDA discoveries,"Show type mix (5,377 Movies; 2,410 TV Shows), add-year and release-year trends, ratings, country/type heatmap, genres, and duration.",EDA charts
+3:45–4:30,Hypothesis testing,"Explain chi-square and Mann–Whitney results. Highlight non-monotonic TV shares across eras: {'2008-2014': 0.21052631578947367, '2015-2017': 0.32801822323462415, '2018-2021': 0.3038229376257545}.",Hypothesis results table
+4:30–5:20,Feature engineering and TF-IDF,"Describe combined fields, conservative text cleaning, TF-IDF vs counts, sparse vectors, and 100-component SVD.",Feature flow / matrix summary
+5:20–6:20,K-Means and K selection,Show elbow and silhouette evidence; explain the 1% tie rule and selected K=9.,Elbow/silhouette charts
+6:20–7:10,Agglomerative clustering,"Explain Ward/average linkage sample comparison, selected ward with 10 groups, and sampled dendrogram.",Dendrogram
+7:10–8:20,Evaluation and clusters,"Compare silhouette (0.177 vs 0.126) and show cluster sizes, terms, and representative titles.","Metrics, cluster map, profiles"
+8:20–9:10,Business use,Present clusters as catalog organization hypotheses and possible future recommender preprocessing; ask stakeholders to validate.,Technical-to-business table
+9:10–9:50,Limitations and future scope,"Mention provenance mismatch, missing fields, internal metrics, metadata-driven similarity, and sampled hierarchy.",Limitations slide
+9:50–10:30,Conclusion,"Restate what was learned, what clusters can support, and what evidence is needed before operational use.",Closing slide

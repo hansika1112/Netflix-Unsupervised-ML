@@ -1,0 +1,3 @@
+algorithm,n_clusters_requested,n_evaluated,n_clusters_observed,silhouette_cosine,davies_bouldin_euclidean,calinski_harabasz_euclidean
+K-Means (K=9),9,1500,9,0.17687489087329614,2.953322578660648,52.69703708955197
+Agglomerative Ward (K=9),9,1500,9,0.1256362212869901,3.03803238704729,42.97127950039039

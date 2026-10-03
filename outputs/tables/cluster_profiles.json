@@ -1,0 +1,645 @@
+[
+  {
+    "cluster": 0,
+    "size": 760,
+    "percentage": 9.76,
+    "content_type_share_pct": {
+      "Movie": 92.9,
+      "TV Show": 7.1
+    },
+    "common_countries": [
+      "United States",
+      "India",
+      "United Kingdom",
+      "Hong Kong",
+      "China"
+    ],
+    "common_ratings": [
+      "TV-14",
+      "TV-MA",
+      "R",
+      "PG-13",
+      "TV-PG"
+    ],
+    "common_genres": [
+      "Action & Adventure",
+      "International Movies",
+      "Dramas",
+      "Comedies",
+      "Sci-Fi & Fantasy"
+    ],
+    "important_tfidf_terms": [
+      "action",
+      "action adventure",
+      "adventure",
+      "states action",
+      "adventure dramas",
+      "international movies",
+      "movies",
+      "adventure comedies",
+      "united",
+      "india action",
+      "international",
+      "united states"
+    ],
+    "representative_titles": [
+      "Waarrior Savitri",
+      "Iceman",
+      "Di Renjie zhi Sidatianwang",
+      "The Bund",
+      "Stargate SG-1"
+    ],
+    "description_samples": [
+      "In a postapocalyptic world, rag-doll robots hide in fear from dangerous machines out to exterminate them, until a brave newcomer joins the group.",
+      "A taxi driver, a gangster and an athlete struggle to better their lives despite obstacles like crooked politicians, evil dons and caste barriers.",
+      "Aiming to hasten an uprising, the leader of an underground rebellion dispatches acrobatic assassin Aeon Flux to eliminate the government's top leader."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "action",
+      "adventure",
+      "action adventure",
+      "states action",
+      "adventure dramas",
+      "international movies",
+      "movies",
+      "united",
+      "united states",
+      "adventure comedies",
+      "states",
+      "india action"
+    ],
+    "descriptive_name_after_review": "Movie-focused · Action & Adventure-led",
+    "business_interpretation": "Potential use: use this action & adventure-led movie segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 1,
+    "size": 761,
+    "percentage": 9.77,
+    "content_type_share_pct": {
+      "Movie": 100.0
+    },
+    "common_countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "France",
+      "India"
+    ],
+    "common_ratings": [
+      "TV-MA",
+      "TV-14",
+      "TV-PG",
+      "TV-G",
+      "PG-13"
+    ],
+    "common_genres": [
+      "Documentaries",
+      "International Movies",
+      "Music & Musicals",
+      "Sports Movies",
+      "LGBTQ Movies"
+    ],
+    "important_tfidf_terms": [
+      "documentaries",
+      "states documentaries",
+      "documentary",
+      "documentaries international",
+      "united",
+      "states",
+      "united states",
+      "movies",
+      "international movies",
+      "kingdom documentaries",
+      "music",
+      "international"
+    ],
+    "representative_titles": [
+      "Trophy",
+      "Iverson",
+      "The Gentleman Driver",
+      "ZZ TOP: THAT LITTLE OL' BAND FROM TEXAS",
+      "Senna"
+    ],
+    "description_samples": [
+      "This intimate documentary follows rock star Artiwara Kongmalai on his historic, 2,215-kilometer charity run across Thailand in 2017.",
+      "This real-life look at FBI counterterrorism operations features access to both sides of a sting: the government informant and the radicalized target.",
+      "Through her diary, Anne Frank's story is retold alongside those of five Holocaust survivors in this poignant documentary from Oscar winner Helen Mirren."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "documentaries",
+      "states documentaries",
+      "documentary",
+      "united",
+      "documentaries international",
+      "states",
+      "united states",
+      "movies",
+      "international movies",
+      "international",
+      "kingdom documentaries",
+      "music"
+    ],
+    "descriptive_name_after_review": "Movie-focused · Documentaries-led",
+    "business_interpretation": "Potential use: use this documentaries-led movie segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 2,
+    "size": 1525,
+    "percentage": 19.58,
+    "content_type_share_pct": {
+      "Movie": 100.0
+    },
+    "common_countries": [
+      "India",
+      "Spain",
+      "France",
+      "Egypt",
+      "Turkey"
+    ],
+    "common_ratings": [
+      "TV-14",
+      "TV-MA",
+      "TV-PG",
+      "R",
+      "PG-13"
+    ],
+    "common_genres": [
+      "International Movies",
+      "Dramas",
+      "Comedies",
+      "Romantic Movies",
+      "Thrillers"
+    ],
+    "important_tfidf_terms": [
+      "international movies",
+      "movies",
+      "dramas international",
+      "international",
+      "dramas",
+      "india",
+      "comedies",
+      "comedies international",
+      "movies romantic",
+      "romantic movies",
+      "india dramas",
+      "romantic"
+    ],
+    "representative_titles": [
+      "Kacche Dhaagey",
+      "Okafor's Law",
+      "Kuppivala",
+      "Rehmataan",
+      "The Light of My Eyes"
+    ],
+    "description_samples": [
+      "After a devastating earthquake hits Mexico City, trapped survivors from all walks of life wait to be rescued while trying desperately to stay alive.",
+      "When an army recruit is found dead, his fellow soldiers are forced to confront a terrifying secret that's haunting their jungle island training camp.",
+      "After an awful accident, a couple admitted to a grisly hospital are separated and must find each other to escape — before death finds them."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "international movies",
+      "movies",
+      "dramas international",
+      "international",
+      "dramas",
+      "india",
+      "comedies",
+      "comedies international",
+      "movies romantic",
+      "romantic movies",
+      "india dramas",
+      "romantic"
+    ],
+    "descriptive_name_after_review": "Movie-focused · International Movies-led",
+    "business_interpretation": "Potential use: use this international movies-led movie segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 3,
+    "size": 494,
+    "percentage": 6.34,
+    "content_type_share_pct": {
+      "Movie": 100.0
+    },
+    "common_countries": [
+      "United States",
+      "Canada",
+      "United Kingdom",
+      "France",
+      "Australia"
+    ],
+    "common_ratings": [
+      "PG",
+      "TV-Y",
+      "TV-Y7",
+      "TV-PG",
+      "TV-G"
+    ],
+    "common_genres": [
+      "Children & Family Movies",
+      "Comedies",
+      "Dramas",
+      "Music & Musicals",
+      "Romantic Movies"
+    ],
+    "important_tfidf_terms": [
+      "children family",
+      "family movies",
+      "children",
+      "family",
+      "states children",
+      "movies comedies",
+      "movies",
+      "united",
+      "united states",
+      "states",
+      "comedies",
+      "christmas"
+    ],
+    "representative_titles": [
+      "Holly Star",
+      "Tellur Aliens",
+      "Beary Tales",
+      "Santa Claws",
+      "Chitty Chitty Bang Bang"
+    ],
+    "description_samples": [
+      "When a small town's letters to Santa accidentally go up in smoke, two elves venture out of the North Pole to retrieve every missing wish.",
+      "A gymnast lacks the confidence she needs to reach the top. But with the help of her new coach, she has the chance to win a spot on the national team.",
+      "Recruited by a secret society of babysitters, a high schooler battles the Boogeyman and his monsters when they nab the boy she's watching on Halloween."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "children",
+      "family",
+      "children family",
+      "family movies",
+      "states children",
+      "movies comedies",
+      "movies",
+      "united",
+      "united states",
+      "states",
+      "comedies",
+      "christmas"
+    ],
+    "descriptive_name_after_review": "Movie-focused · Children & Family Movies-led",
+    "business_interpretation": "Potential use: use this children & family movies-led movie segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 4,
+    "size": 378,
+    "percentage": 4.85,
+    "content_type_share_pct": {
+      "Movie": 87.6,
+      "TV Show": 12.4
+    },
+    "common_countries": [
+      "United States",
+      "United Kingdom",
+      "Mexico",
+      "India",
+      "Brazil"
+    ],
+    "common_ratings": [
+      "TV-MA",
+      "TV-14",
+      "TV-PG",
+      "R",
+      "NR"
+    ],
+    "common_genres": [
+      "Stand-Up Comedy",
+      "Stand-Up Comedy & Talk Shows",
+      "TV Comedies",
+      "International TV Shows",
+      "Music & Musicals"
+    ],
+    "important_tfidf_terms": [
+      "stand",
+      "comedy",
+      "stand comedy",
+      "states stand",
+      "comedian",
+      "special",
+      "united",
+      "united states",
+      "states",
+      "comic",
+      "talk",
+      "stand special"
+    ],
+    "representative_titles": [
+      "Chelsea",
+      "Daniel Sloss: Live Shows",
+      "Queens of Comedy",
+      "The Comedy Lineup",
+      "Hari Kondabolu: Warn Your Relatives"
+    ],
+    "description_samples": [
+      "Comedy icon Carol Burnett returns to TV with a panel of clever kids, who help adults and celebrity guests solve their problems with brutal honesty.",
+      "Inspired by the variety shows of the 1970s, \"A Russell Peters Christmas\" is a sweet, silly, sentimental and, most of all, funny Christmas special.",
+      "Frenetic comic Adam Devine talks teen awkwardness, celebrity encounters, his \"Pitch Perfect\" audition and more in a special from his hometown of Omaha."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "stand",
+      "comedy",
+      "stand comedy",
+      "states stand",
+      "special",
+      "comedian",
+      "united",
+      "united states",
+      "states",
+      "comic",
+      "stand special",
+      "talk"
+    ],
+    "descriptive_name_after_review": "Movie-focused · Stand-Up Comedy-led",
+    "business_interpretation": "Potential use: use this stand-up comedy-led movie segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 5,
+    "size": 1394,
+    "percentage": 17.9,
+    "content_type_share_pct": {
+      "Movie": 68.4,
+      "TV Show": 31.6
+    },
+    "common_countries": [
+      "United States",
+      "United Kingdom",
+      "Canada",
+      "Australia",
+      "Germany"
+    ],
+    "common_ratings": [
+      "TV-MA",
+      "R",
+      "TV-14",
+      "PG-13",
+      "TV-PG"
+    ],
+    "common_genres": [
+      "Dramas",
+      "Comedies",
+      "Thrillers",
+      "Horror Movies",
+      "Romantic Movies"
+    ],
+    "important_tfidf_terms": [
+      "united",
+      "united states",
+      "states",
+      "tv",
+      "dramas",
+      "states dramas",
+      "comedies",
+      "movies",
+      "states comedies",
+      "thrillers",
+      "docuseries",
+      "michael"
+    ],
+    "representative_titles": [
+      "Babies",
+      "Absurd Planet",
+      "High Risk",
+      "Girls Incarcerated",
+      "High Score"
+    ],
+    "description_samples": [
+      "A brilliant group of students become card-counting experts with the intent of swindling millions out of Las Vegas casinos by playing blackjack.",
+      "After one of his high school students attacks him, dedicated teacher Trevor Garfield grows weary of the gang warfare in the New York City school system and moves to California to teach there, thinking it must be a less hostile environment.",
+      "A farmer pens a confession admitting to his wife's murder, but her death is just the beginning of a macabre tale. Based on Stephen King's novella."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "united",
+      "states",
+      "united states",
+      "comedies",
+      "tv",
+      "dramas",
+      "states dramas",
+      "movies",
+      "thrillers",
+      "michael",
+      "states comedies",
+      "john"
+    ],
+    "descriptive_name_after_review": "Movie-focused · Dramas-led",
+    "business_interpretation": "Potential use: use this dramas-led movie segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 6,
+    "size": 406,
+    "percentage": 5.21,
+    "content_type_share_pct": {
+      "TV Show": 99.8,
+      "Movie": 0.2
+    },
+    "common_countries": [
+      "United States",
+      "Canada",
+      "France",
+      "United Kingdom",
+      "Japan"
+    ],
+    "common_ratings": [
+      "TV-Y7",
+      "TV-Y",
+      "TV-PG",
+      "TV-G",
+      "TV-14"
+    ],
+    "common_genres": [
+      "Kids' TV",
+      "TV Comedies",
+      "British TV Shows",
+      "Korean TV Shows",
+      "TV Action & Adventure"
+    ],
+    "important_tfidf_terms": [
+      "kids",
+      "kids tv",
+      "tv",
+      "states kids",
+      "tv tv",
+      "tv comedies",
+      "friends",
+      "adventures",
+      "united",
+      "united states",
+      "states",
+      "series"
+    ],
+    "representative_titles": [
+      "The Minimighty Kids",
+      "Sunny Bunnies",
+      "Zig & Sharko",
+      "Trotro",
+      "Sammy & Co"
+    ],
+    "description_samples": [
+      "After crash-landing on Earth, two royal teen aliens on the run struggle to blend in with humans as they evade intergalactic bounty hunters.",
+      "Paw-esome tales abound when singing furry friends Lampo, Milady, Pilou and Meatball band together.",
+      "Five kids and their resilient families navigate the treatments and traumas of pediatric cancer in this documentary filmed over the course of six years."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "kids",
+      "kids tv",
+      "tv",
+      "tv tv",
+      "states kids",
+      "tv comedies",
+      "adventures",
+      "friends",
+      "united",
+      "united states",
+      "states",
+      "series"
+    ],
+    "descriptive_name_after_review": "TV Show-focused · Kids' TV-led",
+    "business_interpretation": "Potential use: use this kids' tv-led tv show segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 7,
+    "size": 1464,
+    "percentage": 18.8,
+    "content_type_share_pct": {
+      "TV Show": 100.0
+    },
+    "common_countries": [
+      "United States",
+      "United Kingdom",
+      "Japan",
+      "South Korea",
+      "Taiwan"
+    ],
+    "common_ratings": [
+      "TV-MA",
+      "TV-14",
+      "TV-PG",
+      "TV-G",
+      "TV-Y7"
+    ],
+    "common_genres": [
+      "International TV Shows",
+      "TV Dramas",
+      "Crime TV Shows",
+      "Romantic TV Shows",
+      "TV Comedies"
+    ],
+    "important_tfidf_terms": [
+      "tv",
+      "tv shows",
+      "shows",
+      "international tv",
+      "shows tv",
+      "international",
+      "tv dramas",
+      "crime",
+      "crime tv",
+      "romantic tv",
+      "shows international",
+      "shows romantic"
+    ],
+    "representative_titles": [
+      "Lovesick",
+      "Find Yourself",
+      "Three Wives One Husband",
+      "Horror Homes",
+      "Get Even"
+    ],
+    "description_samples": [
+      "In a future where the elite inhabit an island paradise far from the crowded slums, you get one chance to join the 3% saved from squalor.",
+      "A genetics professor experiments with a treatment for his comatose sister that blends medical and shamanic cures, but unlocks a shocking side effect.",
+      "In this dark alt-history thriller, a naïve law student and a world-weary detective uncover a conspiracy that has tyrannized Poland for decades."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "tv",
+      "tv shows",
+      "shows",
+      "international tv",
+      "shows tv",
+      "tv dramas",
+      "international",
+      "crime",
+      "crime tv",
+      "shows international",
+      "romantic tv",
+      "dramas"
+    ],
+    "descriptive_name_after_review": "TV Show-focused · International TV Shows-led",
+    "business_interpretation": "Potential use: use this international tv shows-led tv show segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  },
+  {
+    "cluster": 8,
+    "size": 605,
+    "percentage": 7.77,
+    "content_type_share_pct": {
+      "Movie": 100.0
+    },
+    "common_countries": [
+      "United States",
+      "India",
+      "France",
+      "United Kingdom",
+      "Canada"
+    ],
+    "common_ratings": [
+      "TV-MA",
+      "R",
+      "TV-14",
+      "TV-PG",
+      "PG-13"
+    ],
+    "common_genres": [
+      "Independent Movies",
+      "Dramas",
+      "International Movies",
+      "Comedies",
+      "Thrillers"
+    ],
+    "important_tfidf_terms": [
+      "independent movies",
+      "independent",
+      "dramas independent",
+      "movies",
+      "movies international",
+      "dramas",
+      "states dramas",
+      "united",
+      "united states",
+      "states",
+      "international movies",
+      "india"
+    ],
+    "representative_titles": [
+      "WHAT DID JACK DO?",
+      "Pihu",
+      "Merku Thodarchi Malai",
+      "Thithi",
+      "Inxeba"
+    ],
+    "description_samples": [
+      "On India's Independence Day, a zany mishap in a Mumbai chawl disrupts a young love story while compelling the residents to unite in aid of a little boy.",
+      "After accidentally connecting over the Internet, two strangers form a tight friendship – not knowing they already share a bond.",
+      "Dealing with personal demons and the death of his son, a prizefighter attempts a return to the ring by challenging his rival to a 12-round rematch."
+    ],
+    "kmeans_centroid_terms_approx": [
+      "independent",
+      "independent movies",
+      "dramas independent",
+      "movies",
+      "movies international",
+      "dramas",
+      "states dramas",
+      "united",
+      "states",
+      "united states",
+      "international movies",
+      "india"
+    ],
+    "descriptive_name_after_review": "Movie-focused · Independent Movies-led",
+    "business_interpretation": "Potential use: use this independent movies-led movie segment for navigation and acquisition discussions; validate title fit and audience utility before operational use."
+  }
+]

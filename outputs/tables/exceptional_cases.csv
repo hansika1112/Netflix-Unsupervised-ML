@@ -1,0 +1,9 @@
+case,count,handling
+release_year <= 1950,15,Retain; likely legitimate catalog/library entries; inspect titles before treating as errors.
+release_year < 1970,51,Retain; old release year alone is not a data-quality failure.
+Movies under 60 minutes,420,Retain; short films/specials may be valid. Review title-level cases.
+Movies over 180 minutes,38,Retain; long/special-format titles may be legitimate.
+"missing director, cast, or country simultaneously",58,Retain; sparse credits reduce metadata signal but descriptions remain available.
+missing descriptions,0,None in the supplied CSV; preserve if present.
+rare rating labels (count <= 5),2,Retain rare labels; labels such as NC-17/UR can be uncommon but are not inherently invalid.
+country mentions appearing once,39,Retain rare country mentions; uncommon credits may describe legitimate titles.

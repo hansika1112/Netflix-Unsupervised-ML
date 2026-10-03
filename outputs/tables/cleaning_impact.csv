@@ -1,0 +1,13 @@
+,missing_before,missing_after,missing_pct_before,missing_pct_after,whitespace_normalized_cells
+cast,718,718,9.22,9.22,5.0
+country,507,507,6.51,6.51,0.0
+date_added,10,10,0.13,0.13,88.0
+description,0,0,0.0,0.0,15.0
+director,2389,2389,30.68,30.68,0.0
+duration,0,0,0.0,0.0,0.0
+listed_in,0,0,0.0,0.0,0.0
+rating,7,7,0.09,0.09,0.0
+release_year,0,0,0.0,0.0,
+show_id,0,0,0.0,0.0,0.0
+title,0,0,0.0,0.0,6.0
+type,0,0,0.0,0.0,0.0

@@ -1,0 +1,13 @@
+column,meaning_from_schema,analytical_type
+show_id,Unique record identifier; not a model feature,identifier
+type,Movie or TV Show content format,categorical
+title,Title of the work,text
+director,Listed director(s); missing in many rows,multi-value metadata
+cast,Listed cast members,multi-value metadata
+country,Country/countries credited on the title,multi-value metadata
+date_added,Date added to Netflix as supplied; parseable date,date-like
+release_year,Original release year,numeric/temporal
+rating,Content rating label,categorical
+duration,Mixed unit string: movie minutes or TV seasons,mixed-unit text
+listed_in,Netflix genre/category labels,multi-label categorical
+description,Short synopsis of the title,text

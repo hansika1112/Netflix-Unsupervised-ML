@@ -1,0 +1,9 @@
+linkage,metric,n_clusters,silhouette_cosine
+ward,euclidean,10,0.13587249233335932
+ward,euclidean,9,0.1256362212869901
+ward,euclidean,7,0.11593865473915733
+ward,euclidean,8,0.11578458472671681
+average,cosine,9,0.07402472459065117
+average,cosine,8,0.07265095390855705
+average,cosine,10,0.0678862931606263
+average,cosine,7,0.06030257805353689

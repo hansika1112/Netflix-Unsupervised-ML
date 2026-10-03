@@ -1,0 +1,7 @@
+Technical Finding,Business Meaning,Possible Netflix Use
+"5,377 Movies vs 2,410 TV Shows in this supplied file",Catalog composition is movie-heavy in row count,Format-aware catalog summaries and discovery surfaces
+"H1 date-era chi-square p=0.04262; TV shares={'2008-2014': 0.21052631578947367, '2015-2017': 0.32801822323462415, '2018-2021': 0.3038229376257545}","Type mix differs statistically across broad addition eras, but the shares are not monotonic",Use as a prompt for deeper time-series/catalog-history analysis; avoid a simple 'TV increasingly replaced Movies' claim
+H2 primary-country association p=7.385e-139,Observed type mix varies across first-listed country groups,"Explore regional catalog organization, with co-production/missing-data caveats"
+K-Means selected K=9; sampled cosine silhouette=0.177,Text segments show some structure but remain overlapping,"Use clusters as candidate catalog tags to review, not final personalization decisions"
+"Documentary, family, kids-TV, stand-up, international and broad drama/TV groups appear in profiles",Some clusters are category/format-led and some are broad,Improve exploratory catalog browsing and inform content-segment discussions
+"Text clusters are built from title, credits, country, categories, and synopsis","Similarity reflects available metadata wording, not viewer behavior",Potential preprocessing for future recommender research; not a recommender itself
